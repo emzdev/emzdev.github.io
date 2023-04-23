@@ -41,7 +41,7 @@ Composition based programming is widely used in video game development because o
 ---
 
 ## Inheritance vs composition
-In general, composition should be favored over inheritance. The requirements in game development tend to change a lot, and composition is a safe, flexible and modular pattern that can save a lot of time during rapid changes. 
+In general, composition should be favored over inheritance. The requirements in game development tend to change a lot, and composition is a flexible and modular pattern that can save a lot of time during rapid changes. 
 
 Composition promotes encapsulation of different features which creates a lot of advantages. It makes your features modular, flexible, clear, easy to test and debug. Composition allows for designer to experiment and compose new classes that leverage already existing code, in contexts that was previously not planned for.
 
