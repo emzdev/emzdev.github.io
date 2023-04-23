@@ -1,0 +1,115 @@
+# Project information
+site_name: GameDev Guides and Notes 
+site_url: https://emzdev.github.io/
+site_description: >-
+  Game Development Guides and notes focused on UE5
+site_author: emzdev
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: white
+      accent: 
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+
+# Repository
+repo_name: emzdev/emzdev.github.io
+repo_url: "https://github.com/emzdev/emzdev.github.io"
+
+# Copyright
+copyright: Copyright &copy; 2022 emzdev
+
+extra:
+  analytics:
+    provider: google
+    property: G-JKE0PE08BG
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+nav:
+  - Home: index.md
+  - UE5: 
+    - ue5/index.md
+    - Beginner Guides:
+      - Blueprint Communication: ue5/blueprint-communication.md
+    - Intermediate Guides:
+      - Inheritance vs Composition: ue5/inheritance-vs-composition.md
+      - Hard and Soft References: ue5/hard-soft-references.md
+    - Notes:
+      - Networking:
+        - Replicated Properties vs RPCs: ue5/replicated-properties-vs-rpcs.md
+        - Accessing other connected players from a client: ue5/accessing-connected-players-client.md
+        - Handling Local "Splitscreen" Players in an Online Session: ue5/handling-local-players-online.md
+        - Simulating Lag: ue5/simulating-lag.md
+        - Waiting for players to finish loading: ue5/waiting-for-players-finish-loading.md
+      - Sequencer:
+        - Smooth transitions between gameplay and cutscenes: ue5/smooth-transition-gameplay-cutscenes.md
+      - Gameplay Ability System (GAS):
+        - GAS Notes: ue5/gas-notes.md
+        - GAS Resources: ue5/gas-resources.md
+      - Performance Optimization:
+        - Profiling Tools: ue5/profiling-tools.md
+      - Debugging:
+        - Logging:
+          - Accessing Logs: ue5/accessing-logs.md # executable -log property editor in engine och utanför engine, log filer
+          - Custom Log Categories: ue5/custom-log-categories.md
+        - Custom Console Commands: ue5/custom-console-commands.md
+      - Other notes:
+        - Changing FOV Scaling Methods: ue5/changing-fov-scaling-methods.md
+        - Routing gamepad input to focused Standalone Game window: ue5/routing-gamepad-input-standalone.md
+        
+  - EOS:
+    - eos/index.md
+    - Unlinking a user from your EOS application: eos/unlinking-user-eos.md
+  - Steamworks:
+    - steamworks/index.md
+    - Uploading a build to Steamworks: steamworks/uploading-build.md
+    - Creating Beta Builds: steamworks/creating-beta-builds.md
