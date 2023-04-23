@@ -78,11 +78,12 @@ nav:
   - Home: index.md
   - UE5: 
     - ue5/index.md
-    - Beginner Guides:
-      - Blueprint Communication: ue5/blueprint-communication.md
-    - Intermediate Guides:
-      - Inheritance vs Composition: ue5/inheritance-vs-composition.md
-      - Hard and Soft References: ue5/hard-soft-references.md
+    - Guides:
+      - Beginner Guides:
+        - Blueprint Communication: ue5/blueprint-communication.md
+      - Intermediate Guides:
+        - Inheritance vs Composition: ue5/inheritance-vs-composition.md
+        - Hard and Soft References: ue5/hard-soft-references.md
     - Notes:
       - Networking:
         - Replicated Properties vs RPCs: ue5/replicated-properties-vs-rpcs.md
