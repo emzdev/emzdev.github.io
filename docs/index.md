@@ -17,4 +17,4 @@ Game Development notes, guides and documentation with a focus on Unreal Engine.
 	I also aim to cover some frequently asked topics in the form of **guides** to contribute to the gamedev community, 
 	and to have an easier time to onboard people that I work with.
 
-	Feel free to take a look around, maybe you'll find something useful.
+	Feel free to take a look around, maybe you'll find something useful. 
